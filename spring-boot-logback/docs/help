@@ -1,0 +1,13 @@
+email is not working
+http://issamben.com/logback-send-email-alert/
+
+
+SMTP username: Your Gmail address
+SMTP password: Your Gmail password
+SMTP server address: smtp.gmail.com
+Gmail SMTP port (TLS): 587
+SMTP port (SSL): 465
+SMTP TLS/SSL required: yes
+
+ <STARTTLS>true</STARTTLS>
+

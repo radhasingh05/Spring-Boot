@@ -1,0 +1,30 @@
+Course
+
+Get
+http://localhost:8080/course/getCourses
+
+Post
+http://localhost:8080/course/createCourse
+
+{
+    "courseId" : 1,
+    "courseName" : "JAVA",
+    "courseNumber" : 101
+}
+
+Student
+
+Get
+http://localhost:8080/student/getStudents
+
+Post
+http://localhost:8080/student/createStudent
+
+
+{
+    "studentId" : 1,
+    "studentName" : "Radha Singh",
+    "emailId" : "radhasingh0504@gmail.com",
+    "sex" : "M",
+    "studentAddress" : "Frisco , Texas , US"
+}
