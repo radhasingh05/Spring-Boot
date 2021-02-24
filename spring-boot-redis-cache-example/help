@@ -1,0 +1,20 @@
+Start the redis server in docker container
+docker run --name container-redis -d redis
+
+POST
+http://localhost:8002/book/
+
+{
+    "name" : "Core Java",
+    "category" : "Technology",
+    "author" : "Adarsh Kumar",
+    "publisher" : "Radha pvl",
+    "edition" : "1st edition"
+}
+
+get Request
+
+http://localhost:8002/book/2
+
+Used "ConcurrentMapCacheManager" for Caching
+

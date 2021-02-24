@@ -1,0 +1,16 @@
+http://localhost:8001/book/
+
+{
+    "name" : "Core Java",
+    "category" : "Technology",
+    "author" : "Adarsh Kumar",
+    "publisher" : "Radha pvl",
+    "edition" : "1st edition"
+}
+
+get Request
+
+http://localhost:8001/book/2
+
+Used "ConcurrentMapCacheManager" for Caching
+
